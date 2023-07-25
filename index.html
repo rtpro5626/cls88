@@ -1,23 +1,65 @@
-<!DOCTYPE html>
 <html>
+
+
 <head>
-	<title>Hoyo en uno</title>
-<link rel="stylesheet" href="style.css">
-<script src="fabric.js"></script>
+    <title>TINKE</title>
 
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+
+
+
+    <link rel="stylesheet" href="style.css">
+
+
+    <script src="main.js"></script>
+
 
 </head>
 
-<body class="body_background" onload="load_img()">
-	<center>
-		<h3 id="hd3">Hoyo en uno</h3>
-		<!--- Crea el elemento canvas--->
-	</center>
-	<script src="main.js"></script>
+
+<body>
+    <center>
+        <h1 class="header">
+            TINKE <sup>
+                <img src="m2.png">
+            </sup>
+        </h1>
+        <div class="col-lg-4 col-md-6 col-sm-6 col-xs-11 login_div">
+
+
+            <img src="logo.png" class="logo">
+            <h3>Lo que pasa en el mundo</h3>
+
+
+            <h4>Únete a TINKE</h4>
+            <div class="form-group">
+                <label>Nombre de usuario:</label>
+
+
+                <!--añade un cuadro de entrada para ingresar el nombre del usuario.-->
+
+
+                <input type="text" id="user_name" class="form-control" placeholder="Nombre de usuario">
+
+
+            </div>
+            <!--añade una función onclick addUser() para el botón de iniciar sesión-->
+
+
+            <button id="login_button" class="btn" onclick="addUser()">Iniciar sesión</button>
+           
+            <br><br>
+        </div>
+    </center>
 </body>
+
+
 </html>
